@@ -1,5 +1,12 @@
 function [allKs,origK] = kurtosisPermutationTest(nIters,runPredictableGroup)
 
+% Conduct the random permutation test described "Sensitivity to Major 
+% Versus Minor Musical Modes is Bimodally Distributed in Young Infants."
+% The first argument (nIters) determines the number of simulations performed.
+% If the second argument is true, then the test is performed on the data
+% from the infants in the PREDICTABLE group (Experiment 1).  If the second
+% argument is false, then the test is performed on the data
+% from the infants in the UNPREDICTABLE group (Experiment 2).
 
 % Each row in the matrix below has the number of correct anticipations
 % in the left column and the number of incorrect anticipations in the right
